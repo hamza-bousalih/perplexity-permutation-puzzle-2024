@@ -47,13 +47,6 @@ The problem is **combinatorial** in nature since the solutions are defined by pe
         - After Mutation: `["coming", "is", "Santa", "claus"]`
         - Here, a more substantial change is made compared to a simple swap. A larger portion of the sequence may be shuffled or rearranged.
 
-    3. **Selection**: After generating several permutations, **selection** is the process of choosing the best-performing permutations based on their perplexity score. The best permutations (those with the lowest perplexity) are retained for further exploration.
-    - Example:
-        - Sequence 1: `["the", "reindeer", "sleigh"]` → Perplexity: 10
-        - Sequence 2: `["the", "sleigh", "reindeer"]` → Perplexity: 8
-        - Sequence 3: `["reindeer", "the", "sleigh"]` → Perplexity: 12
-        - After selection, Sequence 2 would be kept as it has the lowest perplexity (8).
-
     4. **Insertion**: Insert a word into a new position in the sequence, potentially creating a better flow. This is similar to a **mutation** but focuses specifically on the insertion of one word at a time, rather than shuffling or swapping multiple words.
     - Example:
         - Original Sequence: `["Santa", "is", "coming"]`
