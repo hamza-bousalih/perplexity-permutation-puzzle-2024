@@ -1,5 +1,9 @@
 ## **Perplexity Permutation Puzzle 2024**
 
+## Submitions
+![alt text](./imgs/image.png)
+![alt text](./imgs/image1.png)
+
 ### **Problem Goal**
 The goal of the problem is to rearrange jumbled words in sequences to form coherent and fluent sentences. The fluency and coherence of a sentence are quantitatively evaluated using a **perplexity** score, with lower perplexity indicating better quality. The challenge lies in efficiently exploring the vast combinatorial solution space of possible permutations to find the optimal arrangement.
 
