@@ -23,6 +23,8 @@ The main objective of this approach is to optimize word permutations to reduce p
 
 ### 2.1. Optimization with WOA
 
+![image](./imgs/woa.png)
+
 #### 1. Generation of Solutions:
    - Create a population of solutions (word permutations).
    - Each whale starts with a random permutation.
@@ -72,6 +74,8 @@ The main objective of this approach is to optimize word permutations to reduce p
    - Less performant solutions may be accepted with a certain probability, favoring exploration.
 
 #### 4. Tabu Mechanism:
+![image](./imgs/ts.png)
+
    - **Tabu List:** Keeps track of recent movements to avoid revisiting already explored solutions.
    - **Diversification:** Allows exploration of new sectors of the search space while avoiding local minima.
 
